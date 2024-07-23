@@ -40,3 +40,45 @@
 .read-the-docs {
   color: #888;
 }
+.App {
+  padding: 10px;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 7px;
+}
+
+.header-row, .data-row {
+  display: contents;
+}
+
+.header-cell {
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 40px;
+ 
+}
+
+.data-cell {
+  text-align: center;
+  padding: 7px;
+  font-size: 18px;
+ 
+}
+.button-style {
+  background-color: rgb(197, 196, 196);
+  display: inline-block;
+  width: auto;
+  border-color: gray;
+  border-radius: 5px;
+  margin-left: 60px;
+  margin-bottom: 70px;
+  margin-right: 80px
+  
+}
+.button-style:hover{
+  background-color: whitesmoke;
+}
